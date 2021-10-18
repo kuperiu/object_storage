@@ -12,3 +12,4 @@ export class ObjectStorage extends p.ComponentResource {
       new aws.s3.Bucket(name)
      }
 }
+
