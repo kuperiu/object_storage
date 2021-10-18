@@ -9,9 +9,6 @@ export class ObjectStorage extends p.ComponentResource {
     private args?: ObjectStorageArgs
     constructor(name: string, args?: ObjectStorageArgs, opts?: p.ComponentResourceOptions) {
       super('test:deployment:object', name, args, opts)
-      new aws.s3.Bucket(name,{} ,{parent: this})
+      new aws.s3.Bucket(name)
      }
 }
-
-module.exports = ObjectStorage
-
