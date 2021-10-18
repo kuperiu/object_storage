@@ -13,3 +13,5 @@ export class ObjectStorage extends p.ComponentResource {
      }
 }
 
+module.exports = ObjectStorage
+
